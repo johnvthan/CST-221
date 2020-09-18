@@ -4,3 +4,8 @@ main()
 {
   printf("Hello World\n");
 }
+
+/*
+*Output will be in terminal:
+* Hello World
+*/
