@@ -1,17 +1,22 @@
+//Johnathan Hampton 
+//CST 221 TOPIC 2
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
 #include <pthread.h>
 #include <semaphore.h>
 
+//setting max
 #define MAX_DEPOSITS 1000000
 
+//variables
 int balance = 0;
 int depositAmt = 1;
 
+//mutex
 sem_t* mutex;
 
-
+//deposit function -- void
 void *deposit(void *a)
 {
   int x, tmp;
@@ -30,7 +35,7 @@ void *deposit(void *a)
   return NULL;
 }
 
-
+//creation of threads and opening the mutex
 int main()
 {
   pthread_t tid1, tid2;
