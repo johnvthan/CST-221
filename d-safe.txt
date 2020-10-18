@@ -1,0 +1,20 @@
+Maximum Resource Matrix: 
+[5 5 2 ]
+[1 2 2 ]
+[4 0 2 ]
+[2 3 2 ]
+[4 3 1 ]
+Allocated Resources Matrix: 
+[1 2 3 ]
+[1 2 3 ]
+[3 0 3 ]
+[2 1 4 ]
+[0 0 2 ]
+Needed Resources Matrix: 
+[4 3 -1 ]
+[0 0 -1 ]
+[1 0 -1 ]
+[0 2 -2 ]
+[4 3 -1 ]
+System is in a safe state.
+Safe sequence is: 1 2 3 4 0 
