@@ -2,7 +2,7 @@
 
 #Johnathan Hampton
 #CST 221
-# User managament as a shell script
+# User managament as a bash script
 
 
 group="testGroup"
