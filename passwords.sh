@@ -2,7 +2,7 @@
 
 #Johnathan Hampton
 #CST 221
-# Password tester as a shell script
+# Password tester as a bash script
 
 x=0
 
